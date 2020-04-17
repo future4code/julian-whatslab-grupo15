@@ -13,13 +13,13 @@
 
 .mensagens-tela {
   border: 1px solid black;
-  height: 92%;
+  height: 94%;
   width: 100%;
 }
 
 .inputs-tela {
   border: 1px solid black;
-  height: 7%;
+  height: 6%;
   width: 100%;
   display: flex;
   justify-content: space-between;
