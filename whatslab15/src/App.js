@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
-import Mensagens from './components/Mensagens'
+import Mensagem from './components/Mensagem';
+import MensagensExibidas from './components/MensagensExibidas';
+
 
 function App() {
   return (
 
     <div className="Mensagem-container">
+      <MensagensExibidas />
+      <Mensagem />
   
       <div className="mensagem-canva">
         <div className="mensagens-tela" ></div>
