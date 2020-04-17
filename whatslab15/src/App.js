@@ -1,11 +1,12 @@
 import React from 'react';
-
 import './App.css';
+import Mensagens from './components/Mensagens'
 
 function App() {
   return (
+
     <div className="Mensagem-container">
-   
+  
       <div className="mensagem-canva">
         <div className="mensagens-tela" ></div>
         <div className="inputs-tela">
@@ -14,7 +15,7 @@ function App() {
           <button onChange="">Enviar</button>
         </div>
       </div>
-   
+    <div className="App">
     </div>
   );
 }
