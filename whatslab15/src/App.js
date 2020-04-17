@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import Mensagens from './components/Mensagens'
+import Mensagem from './components/Mensagem';
 
 function App() {
   return (
     <div className="App">
+      <Mensagem />
       
     </div>
   );
