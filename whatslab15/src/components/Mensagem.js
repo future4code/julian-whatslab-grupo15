@@ -9,14 +9,24 @@ class Mensagem extends React.Component {
     onChangeUsuario = (event) => {
         this.setState({usuario: event.target.value})
     }
-
+    
+    
     onChangeMensagem = (event) => {
         this.setState({mensagem: event.target.value})
     }
 
+    enviarMensagem = (event) => {
+        const aaa  = event.target.usuario
+        const bbb = event.target.mensagem
+      
+        const abc = []
+        abc = abc.push(this.state.aaa)
+    }
+
     render () {
-        
+       
         return  <form onSubmit={this.enviarMensagem}>
+            <h1>{this.state.hin1}</h1>
                     <input
                         className={'input-usuario'}
                         placeholder={'Usuário'}
